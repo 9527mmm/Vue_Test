@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+* @program: JavaWeb
+* @description:
+* @author: zhaoxuekai
+* @GitHub: 9527mmm
+* @Create: 2021-07-22 22:38
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/axios-0.18.0.js"></script>
+</head>
+<body>
+<div id="div">
+    <div>{{name}}</div>
+    <button @click="send()">发送请求</button>
+</div>
+</body>
+<script>
+    new Vue({
+        el: "#div",
+        data: {
+            name: "张三"
+        },
+        methods: {
+            send() {
+                //get请求
+               /* axios.get("/vue_01_war_exploded/axios?name=" + this.name)
+                    .then(resp => {
+                        alert(resp.data);
+                    })
+                    .catch(error =>{
+                        alert(error);
+                    })*/
+                //post请求
+                /*axios.post("axios","name="+this.name)
+                    .then(resp => {
+                        alert(resp.data);
+                    })
+                    .catch(error =>{
+                        alert(error);
+                    })*/
+                axios.post("axios", {name:this.name})
+                    .then(resp => {
+                        alert(resp.data);
+                    })
+                    .catch(error =>{
+                        alert(error);
+                    })
+            }
+        }
+    });
+</script>
+</html>

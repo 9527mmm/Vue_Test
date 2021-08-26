@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="vue_01:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/vue_01_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="vue_01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/junit-4.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/mybatis-3.5.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/jsqlparser-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/slf4j-api-1.7.30.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/hamcrest-core-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/pagehelper-5.1.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/jackson-core-2.8.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/slf4j-log4j12-1.7.26.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/jackson-databind-2.8.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/commons-collections-3.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/jackson-annotations-2.8.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/vue_01/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="vue_01/web/Web" />
+    </root>
+  </artifact>
+</component>
